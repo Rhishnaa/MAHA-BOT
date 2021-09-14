@@ -604,7 +604,7 @@ module.exports = async(xinz, msg, smsg, blocked, _afk, welcome) => {
                     },
                     "type": "RESPONSE"
                 }]
-                xinz.sendButtonsLoc(from, `Hai Kak @${sender.split('@')[0]}\n\nSaya ChikaBot, Bot WhatsApp yg membantu kamu untuk mempermudah sesuatu seperti Membuat Sticker dan Lainnya, Ada Butuh Info Dariku?`, `Note: Kalo kamu pakai wa lama atau mod, dan button ga keliatan, langsung aja ketik ${prefix}allmenu`, qqppp, fs.readFileSync(setting.pathImg), [sender])
+                xinz.sendButtonsLoc(from, `Hai Kak @${sender.split('@')[0]}\n\nSaya MahaBot, Bot WhatsApp yg membantu kamu untuk mempermudah sesuatu seperti Membuat Sticker dan Lainnya, Ada Butuh Info Dariku?`, `Note: Kalo kamu pakai wa lama atau mod, dan button ga keliatan, langsung aja ketik ${prefix}allmenu`, qqppp, fs.readFileSync(setting.pathImg), [sender])
                 }
                 break
              case prefix+'allmenu':{
@@ -649,7 +649,7 @@ module.exports = async(xinz, msg, smsg, blocked, _afk, welcome) => {
                    }
                         list.push(yy)
                     }
-                    xinz.sendList(from, `Selamat ${ucap}`, `Hai kak @${sender.split('@')[0]}, pilih Menu ChikaBot disini`, `Jangan lupa Donasi ya Kak`,`Pilih Disini`, list, msg, [sender])
+                    xinz.sendList(from, `Selamat ${ucap}`, `Hai kak @${sender.split('@')[0]}, pilih Menu MahaBot disini`, `Jangan lupa Donasi ya Kak`,`Pilih Disini`, list, msg, [sender])
                 })
             }
                 break
@@ -3692,7 +3692,7 @@ Alert!!! : ${res.desc}`))
                 }
                 break
             case prefix+'sourcecode': case prefix+'sc': case prefix+'src':
-                textImg(`Bot ini menggunakan sc : https://github.com/rashidsiregar28/chika-bot`)
+                textImg(`Bot ini menggunakan sc : https://github.com/naisayuriza/naisabotz`)
                 break
             case prefix+'donate':
             case prefix+'donasi':
@@ -3721,9 +3721,9 @@ Alert!!! : ${res.desc}`))
                     }
                     break
                 case prefix+'botgroup':
-                case prefix+'chikagroup':
+                case prefix+'mahagroup':
                 case prefix+'botgrup':
-                case prefix+'chikagrup':
+                case prefix+'mahagrup':
                     mentions(ind.groupBot(sender), [sender], true)
                 break
                 case prefix+'ownergroup':
