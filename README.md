@@ -14,7 +14,6 @@
 <a href="https://github.com/Rhishnaa/MAHA-BOT"><img title="Stars" src="https://img.shields.io/github/stars/Rhishnaa/MAHA-BOT?color=red&style=flat-square"></a>
 <a href="https://github.com/Rhishnaa/MAHA-BOT/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Rhishnaa/MAHA-BOT?color=red&style=flat-square"></a>
 <a href="https://github.com/Rhishnaa/MAHA-BOT/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Rhishnaa/MAHA-BOT?label=Watchers&color=blue&style=flat-square"></a>
-<a href="https://Rhishnaa.github.io"><img title="Website" src="https://img.shields.io/github.io/website/Rhishnaa?color=blue&style=flat-square"></a>
 </p>
 
 <p align="center">
