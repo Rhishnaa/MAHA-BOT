@@ -1,7 +1,7 @@
 {
-  "name": "ChikaBot",
+  "name": "MahaBot",
   "version": "1.0.0",
-  "description": "ChikaBot is a multipurpose WhatsApp bot using baileys-nodejs library!",
+  "description": "MahaBot is a multipurpose WhatsApp bot using baileys-nodejs library!",
   "main": "main.js",
   "directories": {
     "lib": "lib"
@@ -11,7 +11,7 @@
     "preinstall": "npm install pm2 -g",
     "start": "node main.js"
   },
-  "author": "rashid28",
+  "author": "rhishna",
   "dependencies": {
     "@adiwajshing/baileys": "^3.5.2",
     "@vitalets/google-translate-api": "^7.0.0",
@@ -45,12 +45,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rashidsiregar28/chika-bot.git"
+    "url": "git+https://github.com/Rhishnaa/MAHA-BOT.git"
   },
   "bugs": {
-    "url": "https://github.com/rashidsiregar28/chika-bot/issues"
+    "url": "https://github.com/Rhishnaa/MAHA-BOT/issues"
   },
-  "homepage": "https://github.com/rashidsiregar28/chika-bot#readme",
+  "homepage": "https://github.com/Rhishnaa/MAHA-BOT#readme",
   "devDependencies": {
     "json-server": "^0.16.3"
   }
